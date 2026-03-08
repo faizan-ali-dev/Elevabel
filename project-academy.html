@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security Headers -->
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Digital Academy Project | Elevabel</title>
+    <meta name="description"
+        content="Discover how Elevabel engineered a scalable, high-performance Digital Academy LMS platform using robust backend technologies.">
+    <meta name="keywords"
+        content="LMS, Digital Academy, EdTech, learning management system, custom software development">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://elevabel.com/project-academy.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://elevabel.com/project-academy.html">
+    <meta property="og:title" content="Digital Academy Project | Elevabel">
+    <meta property="og:description"
+        content="Explore Elevabel's case study on building a world-class educational platform.">
+    <meta property="og:image" content="https://elevabel.com/img/elevabel_logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://elevabel.com/project-academy.html">
+    <meta property="twitter:title" content="Digital Academy Project | Elevabel">
+    <meta property="twitter:description"
+        content="Explore Elevabel's case study on building a world-class educational platform.">
+    <meta property="twitter:image" content="https://elevabel.com/img/elevabel_logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/elevabel_logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=1.1">
+    <style>
+        .project-hero {
+            padding-top: 150px;
+            padding-bottom: 80px;
+            background: linear-gradient(135deg, var(--color-hero-bg-start), var(--color-hero-bg-mid), var(--color-hero-bg-end));
+            color: white;
+            text-align: center;
+        }
+
+        .project-hero h1 {
+            color: white;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project-meta {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .project-image-large {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-top: -60px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .project-content {
+            padding: 80px 0;
+        }
+
+        .project-grid-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+        }
+
+        .project-sidebar {
+            background: var(--color-light-bg);
+            padding: 40px;
+            border-radius: var(--radius-md);
+        }
+
+        .project-sidebar h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tech-tag {
+            background: var(--color-white);
+            color: var(--color-primary-dark);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.85rem;
+            border: 1px solid var(--color-border);
+        }
+
+        .content-body h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .content-body p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: var(--color-text);
+        }
+
+        .content-body ul {
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .content-body li {
+            margin-bottom: 10px;
+            position: relative;
+            list-style: disc;
+            color: var(--color-text);
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 900px) {
+            .project-grid-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .project-hero {
+                padding-top: 100px;
+                padding-bottom: 40px;
+            }
+
+            .project-hero h1 {
+                font-size: 2rem;
+            }
+
+            .project-image-large {
+                height: 250px;
+            }
+
+            .project-content {
+                padding: 40px 0;
+            }
+
+            .project-sidebar {
+                padding: 20px;
+            }
+
+            .content-body h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/elevabel_logo.png" alt="Elevabel Logo" class="logo-image">
+                Elevabel
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="index.html#portfolio" class="nav-link">Back to Portfolio</a></li>
+                </ul>
+                <a href="index.html#contact" class="btn btn-primary nav-cta">Get Started</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <h1 class="reveal-up">Digital Academy</h1>
+                <div class="project-meta reveal-up" style="transition-delay: 0.1s;">
+                    <span class="meta-item"><i class="fa-solid fa-folder"></i> Education / LMS</span>
+                    <span class="meta-item"><i class="fa-solid fa-calendar"></i> 2025</span>
+                    <span class="meta-item"><i class="fa-solid fa-globe"></i> Web Platform</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Image & Content -->
+        <section class="project-content">
+            <div class="container">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1200"
+                    alt="Digital Academy Platform" class="project-image-large reveal-up">
+
+                <div class="project-grid-layout" style="margin-top: 60px;">
+                    <div class="content-body reveal-down">
+                        <h2>Project Overview</h2>
+                        <p>Digital Academy is a comprehensive Learning Management System (LMS) designed to deliver
+                            high-quality online courses to thousands of students worldwide. We opted for a robust
+                            backend
+                            foundation using Django, enabling us to securely handle complex user roles, media uploads,
+                            and
+                            course progressions.</p>
+                        <p>The system was designed with instructors and students in mind. Instructors benefit from an
+                            intuitive Django Admin interface tailored for content creation, while students enjoy a
+                            distraction-free, highly interactive front-end experience.</p>
+
+                        <h2>Key Features</h2>
+                        <ul>
+                            <li>Role-based access control (Student, Instructor, Admin) using Django's built-in
+                                authentication system.</li>
+                            <li>Video streaming integration with secure, signed URLs to protect premium content.</li>
+                            <li>Interactive quizzes, automated grading, and digital certificate generation via Python
+                                and
+                                Celery background tasks.</li>
+                            <li>Stripe subscription billing integrated directly into the Django backend for automated
+                                user
+                                tiering.</li>
+                        </ul>
+
+                        <h2>The Results</h2>
+                        <p>By leveraging Django's rapid development capabilities, we were able to bring Digital Academy
+                            to
+                            market 3 months faster than competing stacks. The platform now hosts over 50,000 active
+                            students
+                            with zero downtime during peak enrollment periods.</p>
+                    </div>
+
+                    <div class="project-sidebar reveal-up">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Celery & Redis</span>
+                            <span class="tech-tag">HTML5 / CSS3</span>
+                            <span class="tech-tag">Vanilla JS</span>
+                        </div>
+
+                        <h3 style="margin-top: 40px;">Client Needs</h3>
+                        <p style="color: var(--color-text); font-size: 0.95rem;">The client demanded a highly secure,
+                            data-rich platform capable of handling complex relational data like course prerequisites,
+                            grades, and payment histories without sacrificing speed.</p>
+
+                        <a href="index.html#contact" class="btn btn-primary"
+                            style="width: 100%; margin-top: 30px;">Start a
+                            Similar Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-bottom: 40px;">
+                <p>&copy; 2026 Elevabel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

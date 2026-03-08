@@ -1,0 +1,319 @@
+Act as a senior frontend engineer and UI/UX designer.
+
+Your task is to create a high-end modern digital agency website for a company called Elevabel.
+
+Generate the complete website code using only HTML5, CSS3, and vanilla JavaScript.
+
+The design must look like a premium tech startup / SaaS company website, similar to modern agencies such as Stripe-style or Webflow-style layouts.
+
+The UI must be clean, minimal, modern, and professional.
+
+Branding
+
+Company Name: Elevabel
+
+Tagline:
+Digital Growth, Elevated
+
+Mission:
+Helping businesses grow through technology, digital transformation, and intelligent solutions.
+
+Color System
+
+Primary Gradient
+Cyan → Teal
+
+Example:
+
+#00C6D7
+#009FB5
+
+Supporting Colors
+
+White
+#ffffff
+
+Light Grey
+#f5f7f9
+
+Dark Grey
+#2c2c2c
+
+Background gradient for hero:
+
+linear-gradient(135deg, #0f2027, #203a43, #2c5364)
+
+Use gradients sparingly to maintain a premium look.
+
+Typography
+
+Use modern web fonts:
+
+Primary Font
+Poppins / Inter / Montserrat
+
+Heading Style:
+Bold, large, modern.
+
+Body text:
+Clean and readable.
+
+Spacing should follow modern SaaS layout principles.
+
+Website Structure
+
+Create the following sections in order.
+
+1. Sticky Navigation Bar
+
+Professional navbar with:
+
+Left
+Elevabel logo + brand name
+
+Right menu:
+
+Home
+Services
+Portfolio
+About
+Contact
+
+CTA button:
+
+Get Started
+
+Features:
+
+Sticky navbar
+Smooth scroll navigation
+Hover underline animation
+
+2. Hero Section
+
+Split layout.
+
+Left side:
+
+Large bold heading
+
+DIGITAL GROWTH,
+ELEVATED.
+
+Subheading:
+
+Elevabel helps businesses scale through powerful software, cloud systems, and digital innovation.
+
+Buttons:
+
+Get Started
+View Services
+
+Right side:
+
+Large modern growth arrow graphic with cyan gradient similar to the reference design.
+
+Background:
+
+Dark gradient background.
+
+Add subtle floating animation or gradient glow effect.
+
+3. Services Section
+
+Title:
+
+Our Services
+
+Grid layout with 12 service cards.
+
+Services list:
+
+Custom Software Development
+Mobile App Development
+Web Development
+UI/UX Design
+Cloud Solutions
+E-commerce Solutions
+SEO Optimization
+Technical Support
+Technical Maintenance
+AI Solutions
+Digital Transformation
+Helping Businesses Thrive
+
+Each card must include:
+
+Icon
+Title
+Short description
+
+Design:
+
+White cards
+Rounded corners
+Soft shadow
+Hover lift effect
+Icon accent color cyan
+
+Grid should be responsive.
+
+4. Portfolio Section
+
+Title:
+
+Our Work
+
+Grid layout of portfolio projects.
+
+Each card includes:
+
+Image
+Project name
+Category tag
+
+Example projects:
+
+FinTech Platform
+AI SaaS Dashboard
+E-commerce Store
+Mobile Banking App
+Cloud Analytics Tool
+Startup Landing Page
+
+Add hover overlay animation.
+
+5. Why Choose Elevabel
+
+Section with 4 feature blocks.
+
+Features:
+
+Innovative Solutions
+Expert Developers
+Scalable Architecture
+24/7 Technical Support
+
+Design:
+
+Icon
+Title
+Short text
+
+6. Client Testimonials
+
+Section title:
+
+What Our Clients Say
+
+Create 3 testimonial cards.
+
+Each includes:
+
+Quote
+Client name
+Company name
+
+Cards should have subtle glass or soft shadow style.
+
+7. Call To Action Section
+
+Large center section.
+
+Text:
+
+Ready to Elevate Your Business?
+
+Button:
+
+Start Your Project
+
+Background gradient cyan.
+
+8. Contact Section
+
+Contact form with:
+
+Name
+Email
+Company
+Message
+
+Also show:
+
+Email
+Phone
+Office location
+
+Add form validation using JavaScript.
+
+9. Footer
+
+Footer sections:
+
+Logo + short description
+
+Quick Links
+Services
+Social Icons
+
+Bottom copyright:
+
+© 2026 Elevabel. All Rights Reserved.
+
+Animations and Effects
+
+Add modern UI effects:
+
+Smooth scrolling navigation
+Hover card animations
+Button hover glow
+Scroll reveal animations
+Floating hero graphics
+
+Use pure CSS and JavaScript.
+
+Do NOT use frameworks.
+
+Responsiveness
+
+The website must be fully responsive.
+
+Breakpoints:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Mobile features:
+
+Hamburger menu
+Stacked sections
+Responsive grids
+
+Code Requirements
+
+Generate clean, well-structured code.
+
+Files:
+
+index.html
+style.css
+script.js
+
+Requirements:
+
+Semantic HTML
+Reusable CSS classes
+Well-commented code
+Optimized layout
+
+Important
+
+The final website should look like a premium digital agency website and follow the design theme similar to the provided reference image:
+
+Dark hero section
+Cyan gradient branding
+Minimal white sections
+Professional UI components

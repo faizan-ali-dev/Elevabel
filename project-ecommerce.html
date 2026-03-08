@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security Headers -->
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>E-commerce Store Project | Elevabel</title>
+    <meta name="description"
+        content="Read how Elevabel delivered a high-converting, scalable e-commerce solution with modern UI/UX and seamless payment integrations.">
+    <meta name="keywords"
+        content="e-commerce development, online store, custom e-commerce, digital retail, web development">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://elevabel.com/project-ecommerce.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://elevabel.com/project-ecommerce.html">
+    <meta property="og:title" content="E-commerce Store Project | Elevabel">
+    <meta property="og:description"
+        content="Discover Elevabel's approach to engineering highly scalable e-commerce storefronts.">
+    <meta property="og:image" content="https://elevabel.com/img/elevabel_logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://elevabel.com/project-ecommerce.html">
+    <meta property="twitter:title" content="E-commerce Store Project | Elevabel">
+    <meta property="twitter:description"
+        content="Discover Elevabel's approach to engineering highly scalable e-commerce storefronts.">
+    <meta property="twitter:image" content="https://elevabel.com/img/elevabel_logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/elevabel_logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=1.1">
+    <style>
+        .project-hero {
+            padding-top: 150px;
+            padding-bottom: 80px;
+            background: linear-gradient(135deg, var(--color-hero-bg-start), var(--color-hero-bg-mid), var(--color-hero-bg-end));
+            color: white;
+            text-align: center;
+        }
+
+        .project-hero h1 {
+            color: white;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project-meta {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .project-image-large {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-top: -60px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .project-content {
+            padding: 80px 0;
+        }
+
+        .project-grid-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+        }
+
+        .project-sidebar {
+            background: var(--color-light-bg);
+            padding: 40px;
+            border-radius: var(--radius-md);
+        }
+
+        .project-sidebar h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tech-tag {
+            background: var(--color-white);
+            color: var(--color-primary-dark);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.85rem;
+            border: 1px solid var(--color-border);
+        }
+
+        .content-body h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .content-body p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: var(--color-text);
+        }
+
+        .content-body ul {
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+
+        .content-body li {
+            margin-bottom: 10px;
+            position: relative;
+            list-style: disc;
+            color: var(--color-text);
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 900px) {
+            .project-grid-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .project-hero {
+                padding-top: 100px;
+                padding-bottom: 40px;
+            }
+
+            .project-hero h1 {
+                font-size: 2rem;
+            }
+
+            .project-image-large {
+                height: 250px;
+            }
+
+            .project-content {
+                padding: 40px 0;
+            }
+
+            .project-sidebar {
+                padding: 20px;
+            }
+
+            .content-body h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/elevabel_logo.png" alt="Elevabel Logo" class="logo-image">
+                Elevabel
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="index.html#portfolio" class="nav-link">Back to Portfolio</a></li>
+                </ul>
+                <a href="index.html#contact" class="btn btn-primary nav-cta">Get Started</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <h1 class="reveal-up">E-commerce Store</h1>
+                <div class="project-meta reveal-up" style="transition-delay: 0.1s;">
+                    <span class="meta-item"><i class="fa-solid fa-folder"></i> Retail</span>
+                    <span class="meta-item"><i class="fa-solid fa-calendar"></i> 2025</span>
+                    <span class="meta-item"><i class="fa-solid fa-globe"></i> Web Platform</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Image & Content -->
+        <section class="project-content">
+            <div class="container">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1200"
+                    alt="E-commerce Store Dashboard" class="project-image-large reveal-up">
+
+                <div class="project-grid-layout" style="margin-top: 60px;">
+                    <div class="content-body reveal-down">
+                        <h2>Project Overview</h2>
+                        <p>We developed a high-converting, fully customized e-commerce platform designed to offer a
+                            seamless
+                            shopping experience for a major retail client. The platform was built from the ground up to
+                            ensure lightning-fast page loads, intuitive navigation, and a frictionless checkout process.
+                        </p>
+                        <p>Faced with the challenge of migrating hundreds of thousands of SKUs from a legacy system, our
+                            team created specialized migration scripts that mapped product data securely while
+                            preserving
+                            SEO authority.</p>
+
+                        <h2>Key Features</h2>
+                        <ul>
+                            <li>Dynamic inventory tracking with real-time supplier sync.</li>
+                            <li>Advanced product filtering and AI-driven search capabilities.</li>
+                            <li>Multi-currency support and automated localized tax calculation.</li>
+                            <li>Headless commerce architecture to support omnichannel sales.</li>
+                        </ul>
+
+                        <h2>The Results</h2>
+                        <p>Post-launch, the client saw a <strong>45% increase in conversion rates</strong> and a 30%
+                            reduction in cart abandonment. The modern technology stack reduced server costs by
+                            optimizing
+                            resource usage, proving that technical excellence directly drives business growth.</p>
+                    </div>
+
+                    <div class="project-sidebar reveal-up">
+                        <h3>Technologies Used</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Stripe API</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+
+                        <h3 style="margin-top: 40px;">Client Needs</h3>
+                        <p style="color: var(--color-text); font-size: 0.95rem;">The client required a platform that
+                            wouldn't crash during major holiday sales and allowed marketing teams to update content
+                            without
+                            deploying code.</p>
+
+                        <a href="index.html#contact" class="btn btn-primary"
+                            style="width: 100%; margin-top: 30px;">Start a
+                            Similar Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-bottom: 40px;">
+                <p>&copy; 2026 Elevabel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
